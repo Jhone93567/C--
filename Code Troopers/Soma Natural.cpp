@@ -10,7 +10,7 @@ int main()
 	
 	cin >> A >> B;
 	
-	Soma = ((A + B)* (B - A + 1))/2; // fórmula da progressao aritmetica
+	Soma = ((A + B)* (B - A + 1))/2; // formula da progressao aritmetica
 		
 	cout << Soma << endl;
 
