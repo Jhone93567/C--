@@ -4,10 +4,10 @@ using namespace std;
 
 int main()
 {
-    bool p1[1000001]; // vetor que armazenara o numero de presenca dos alunos
+    bool p1[1000001]; // vetor que armazenara quais alunos estao presentes
     int N;            // quantos numeros serao inseridos
     int R = 0;        // contador para quantos numeros sao repetidos
-    int indice;
+    int indice;       // o numero de presena do aluno
 
     cin >> N; // entrada
 
