@@ -8,7 +8,7 @@ int main()
     char nome[50]; // vetor de letras
     int t;
 
-    strcpy(nome, "Marco"); // copia Marco para o vetor nome
+    strcpy(nome, "Marco Tulio"); // copia Marco para o vetor nome
 
     cout << nome << endl;
 
