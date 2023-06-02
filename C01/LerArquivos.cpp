@@ -16,7 +16,7 @@ int main()
     // Abrindo o arquivo para leitura
     arq.open(nomearq, ifstream::in);
 
-    while (!arq.eof())
+    while (!arq.eof()) // Enquanto o arquivo nao chegar no fim
     {
     // Lendo dados do arquivo
     arq.getline(nomeFilme, 100);
