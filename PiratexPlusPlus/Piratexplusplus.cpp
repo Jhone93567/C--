@@ -4,23 +4,43 @@
 
 using namespace std;
 
-struct Usuario
+struct Filme
 {
-    char Nome[100]; // Nome do usuario
-    int Idade;      // Idade do usuario
-    /* Bool para cada genero ou um vetor que armazena todos? */
+    char nomef[100];
+    int clas;
+    char gen[100];
 };
+
 
 int main()
 {
-    Usuario perfil1;
+    ifstream arq;
+    Filme filme[200];
+    int i = 0;
+
+    /*CRIAR CODIGO PARA LER O ARUIVO*/
+
+    while(!arq.eof())
+    {
+        arq.getline(filme[i].nomef,100);
+        arq >> filme[i].gen;
+        arq.ignore();
+
+        i++;
+    }
+    
+
+    char Nome[200]; // Vetor que armazena o nome do usuario
+    int Idade; // Idade do usuario
 
     // Interface inicial que pedira o nome e a idade do usuario
     cout << "Bem vindo ao PiratexPlusPlus, primeiramente, qual o seu nome?" << endl;
-    cin.getline(perfil1.Nome, 100);
+    cin.getline(Nome, 200);
 
-    cout << "Ola " << perfil1.Nome << ", uma ultima coisa, qual a sua idade?" << endl;
-    cin >> perfil1.Idade;
+    cout << "Ola " << Nome << ", uma ultima coisa, qual a sua idade?" << endl;
+    cin >> Idade;
+
+    /*COLOCAR O CODIGO INTEIRO DENTRO DE UM wHILE*/
 
     return 0;
 }
