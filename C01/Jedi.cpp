@@ -42,6 +42,6 @@ int main()
     }
     else
         cout << "Este cavaleiro nao esta cadastrado" << endl; // caso o result nao seja alterado que dizer que nao ja ninguem com esse nome
-
+        
     return 0;
 }
