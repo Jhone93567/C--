@@ -268,7 +268,7 @@ int main()
 
         cin >> ans; // Entrada da resposta do usuario
 
-        while (ans != 1 || ans != 0) // enquanto a resposta nao seja 1 ou 0
+        while (ans != 1 && ans != 0) // enquanto a resposta nao seja 1 ou 0
         {
             cout << "Por favor, responda com 1 (sim) ou 0 (nao)" << endl;
 
