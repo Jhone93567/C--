@@ -31,8 +31,16 @@ int main()
     srand(time(NULL)); // inicializa a semente do gerador de numeros aleaorios
     int rgen;          // variavel para a resposta do usuario sobre o genero escolhido
     int rand[10];      // vetor que armazenara o numero dos filmes sorteados
-    int ans = 1;   // bool para a resposta do usuario sobre querer ver outro filme
-    int i = 0;         // contador
+    int ans = 1;       // bool para a resposta do usuario sobre querer ver outro filme
+    int n, i = 0;      // contador
+    int srand[10];     // Vetor que salva os filmes mostrados
+    int rindic;        // variavel para a resposta do usuario sobre as indicacoes
+
+    // Colocando todos os valores do vetor em -1
+    for (n = 0; n < 10; n++)
+    {
+        srand[n] = -1;
+    }
 
     // 0 a 134 acao / aventura, 135 a 194 animacao, 195 a 287 comedia, 288 a 407 drama / suspense, 408 a 462 terror, 463 a 507 ficcao cientifica, 508 a 527 romance, 528 a 547 historico, 548 a 567 musical
     arq.open("lista.txt", ifstream::in); // abre o arquivo para leitura
@@ -84,9 +92,14 @@ int main()
                 }
             }
 
+            for (n = 0; n < 5; n++)
+            {
+                srand[n] = rand[n];
+            }
+
             for (int n = 0; n < 5; n++)
             {
-                cout << filme[rand[n]].nomef << endl;
+                cout << n << "- " << filme[rand[n]].nomef << endl;
             }
 
             break;
@@ -105,9 +118,14 @@ int main()
                 }
             }
 
+            for (n = 0; n < 5; n++)
+            {
+                srand[n] = rand[n];
+            }
+
             for (int n = 0; n < 5; n++)
             {
-                cout << filme[rand[n]].nomef << endl;
+                cout << n << "- " << filme[rand[n]].nomef << endl;
             }
 
             break;
@@ -126,9 +144,14 @@ int main()
                 }
             }
 
+            for (n = 0; n < 5; n++)
+            {
+                srand[n] = rand[n];
+            }
+
             for (int n = 0; n < 5; n++)
             {
-                cout << filme[rand[n]].nomef << endl;
+                cout << n << "- " << filme[rand[n]].nomef << endl;
             }
 
             break;
@@ -147,9 +170,14 @@ int main()
                 }
             }
 
+            for (n = 0; n < 5; n++)
+            {
+                srand[n] = rand[n];
+            }
+
             for (int n = 0; n < 5; n++)
             {
-                cout << filme[rand[n]].nomef << endl;
+                cout << n << "- " << filme[rand[n]].nomef << endl;
             }
 
             break;
@@ -168,9 +196,14 @@ int main()
                 }
             }
 
+            for (n = 0; n < 5; n++)
+            {
+                srand[n] = rand[n];
+            }
+
             for (int n = 0; n < 5; n++)
             {
-                cout << filme[rand[n]].nomef << endl;
+                cout << n << "- " << filme[rand[n]].nomef << endl;
             }
 
             break;
@@ -189,9 +222,14 @@ int main()
                 }
             }
 
+            for (n = 0; n < 5; n++)
+            {
+                srand[n] = rand[n];
+            }
+
             for (int n = 0; n < 5; n++)
             {
-                cout << filme[rand[n]].nomef << endl;
+                cout << n << "- " << filme[rand[n]].nomef << endl;
             }
 
             break;
@@ -210,9 +248,14 @@ int main()
                 }
             }
 
+            for (n = 0; n < 5; n++)
+            {
+                srand[n] = rand[n];
+            }
+
             for (int n = 0; n < 5; n++)
             {
-                cout << filme[rand[n]].nomef << endl;
+                cout << n << "- " << filme[rand[n]].nomef << endl;
             }
 
             break;
@@ -231,9 +274,14 @@ int main()
                 }
             }
 
+            for (n = 0; n < 5; n++)
+            {
+                srand[n] = rand[n];
+            }
+
             for (int n = 0; n < 5; n++)
             {
-                cout << filme[rand[n]].nomef << endl;
+                cout << n << "- " << filme[rand[n]].nomef << endl;
             }
 
             break;
@@ -252,9 +300,14 @@ int main()
                 }
             }
 
+            for (n = 0; n < 5; n++)
+            {
+                srand[n] = rand[n];
+            }
+
             for (int n = 0; n < 5; n++)
             {
-                cout << filme[rand[n]].nomef << endl;
+                cout << n << "- " << filme[rand[n]].nomef << endl;
             }
 
             break;
@@ -262,6 +315,16 @@ int main()
         default:
             break;
         }
+
+        cout << endl;
+        cout << "Digite o numero do filme que deseja assistir" << endl; // Pergunta qual filme o usuario assistirá
+
+        cin >> n;
+
+        srand[n] = -1; // Exclui o filme assistido do vetor
+
+        cout << "Esa indicações foram úteis pra você?" << endl << "0- Nao  1- Sim" << endl;
+        cin >> rindic;
 
         cout << "Deseja assistir outro filme?" << endl; // Pergunta se o usuario deseja ver outro filme
         cout << "1-Sim  0-Nao" << endl;
@@ -274,7 +337,6 @@ int main()
 
             cin >> ans; // pergunta denovo
         }
-        
     }
 
     cout << "Obrigado por escolher a PiratexPlusPlus!" << endl;
