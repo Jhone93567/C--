@@ -10,17 +10,14 @@ using namespace std;
 struct Filme
 {
     char nomef[300]; // nome do filme
-    int clas;        // classificação do filme
+    int clas;        // classificacao do filme
 };
 
-int sorteio(int a, int b) // funcao que retorna um numero aleatorio de a até b
+int sorteio(int a, int b) // funcao que retorna um numero aleatorio de a ate b
 {
     int sort;
-    sort = rand() % (b + 1); // sorteia um numero q vai ate b
-    while (sort < a)         // se sortear um numero menor que a
-    {
-        sort = rand() % (b + 1); // sorteia denovo
-    }
+    sort = rand() % (b - a + 1) + a; // sorteia um numero q vai ate b
+
     return sort;
 }
 
@@ -34,7 +31,7 @@ int main()
     int ans = 1;       // bool para a resposta do usuario sobre querer ver outro filme
     int n, i = 0;      // contador
     int srand[10];     // Vetor que salva os filmes mostrados
-    int rindic;        // variavel para a resposta do usuario sobre as indicacoes
+    int rindic = 0;    // variavel para a resposta do usuario sobre as indicacoes
 
     // Colocando todos os valores do vetor em -1
     for (n = 0; n < 10; n++)
@@ -57,15 +54,55 @@ int main()
 
     arq.close(); // fecha o arquivo
 
-    char Nome[200]; // Vetor que armazena o nome do usuario
-    int Idade;      // Idade do usuario
+    int r;            // resposta
+    ofstream arq2;    // variavel chamada arquivo
+    char nome[200];   // nome do novo usuario
+    int genero; // genero preferido do usuario
+    int Idade;        // Idade do usuario
 
-    // Interface inicial que pedira o nome e a idade do usuario
-    cout << "Bem vindo ao PiratexPlusPlus, primeiramente, qual o seu nome?" << endl;
-    cin.getline(Nome, 200);
+    // opcao de escolha
+    cout << "Bem vindo, e a sua primeira vez na plataforma?" << endl;
+    cout << "1(sim) / 2(nao)" << endl;
 
-    cout << "Ola " << Nome << ", uma ultima coisa, qual a sua idade?" << endl;
-    cin >> Idade;
+    cin >> r;
+
+    cin.ignore();
+
+    // condicao para criar um perfil para a pessoa
+    if (r == 1)
+    {
+        cout << "Ai sim. Seja bem-vindo!" << endl;
+        cout << "Primeiro, me diga seu nome e sobrenome." << endl;
+
+        cin.getline(nome, 200);
+
+        cout << "Agora me fale sua Idade" << endl;
+
+        cin >> Idade;
+
+        cout << "Estamos quase la." << endl;
+        cout << "Por ultimo, me fale seu genero de filme preferido" << endl;
+
+        cin.ignore();
+        cin >> genero;
+
+        strcat(nome, ".txt");
+
+        arq2.open(nome, ofstream ::out);
+
+        // escrevendo informacoes no arquivo
+        arq2 << nome << endl;
+        arq2 << Idade << endl;
+        arq2 << genero << endl;
+
+        arq2.close();
+    }
+
+    // caso a pessoa nao queira criar um perfil
+    else
+    {
+        cout << "Tudo bem, tenha uma otima experiencia usando nossa plataforma!" << endl;
+    }
 
     while (ans == 1) // while para repetir o codigo enquanto o usuario quiser assistir algum filme
     {
@@ -79,12 +116,12 @@ int main()
         switch (rgen) // switch para cada genero escolhido
         {
         case 1:
-            for (int n = 0; n < 5; n++)
+            for (n = 0; n < 5; n++)
             {
                 rand[n] = sorteio(0, 134);
             }
 
-            for (int n = 0; n < 5; n++)
+            for (n = 0; n < 5; n++)
             {
                 while (filme[rand[n]].clas > Idade)
                 {
@@ -97,20 +134,23 @@ int main()
                 srand[n] = rand[n];
             }
 
-            for (int n = 0; n < 5; n++)
+            for (n = 0; n < 5; n++)
             {
-                cout << n << "- " << filme[rand[n]].nomef << endl;
+                if (rand[n] == rand[n + 1] || rand[n] == rand[n + 2])
+                    cout << " "; // garante que o filme nao apareca + de 1 vez
+                else
+                    cout << filme[rand[n]].nomef << endl;
             }
 
             break;
 
         case 2:
-            for (int n = 0; n < 5; n++)
+            for (n = 0; n < 5; n++)
             {
                 rand[n] = sorteio(135, 194);
             }
 
-            for (int n = 0; n < 5; n++)
+            for (n = 0; n < 5; n++)
             {
                 while (filme[rand[n]].clas > Idade)
                 {
@@ -123,20 +163,23 @@ int main()
                 srand[n] = rand[n];
             }
 
-            for (int n = 0; n < 5; n++)
+            for (n = 0; n < 5; n++)
             {
-                cout << n << "- " << filme[rand[n]].nomef << endl;
+                if (rand[n] == rand[n + 1] || rand[n] == rand[n + 2])
+                    cout << " "; // garante que o filme nao apareca + de 1 vez
+                else
+                    cout << filme[rand[n]].nomef << endl;
             }
 
             break;
 
         case 3:
-            for (int n = 0; n < 5; n++)
+            for (n = 0; n < 5; n++)
             {
                 rand[n] = sorteio(195, 287);
             }
 
-            for (int n = 0; n < 5; n++)
+            for (n = 0; n < 5; n++)
             {
                 while (filme[rand[n]].clas > Idade)
                 {
@@ -149,20 +192,23 @@ int main()
                 srand[n] = rand[n];
             }
 
-            for (int n = 0; n < 5; n++)
+            for (n = 0; n < 5; n++)
             {
-                cout << n << "- " << filme[rand[n]].nomef << endl;
+                if (rand[n] == rand[n + 1] || rand[n] == rand[n + 2])
+                    cout << " "; // garante que o filme nao apareca + de 1 vez
+                else
+                    cout << filme[rand[n]].nomef << endl;
             }
 
             break;
 
         case 4:
-            for (int n = 0; n < 5; n++)
+            for (n = 0; n < 5; n++)
             {
                 rand[n] = sorteio(288, 407);
             }
 
-            for (int n = 0; n < 5; n++)
+            for (n = 0; n < 5; n++)
             {
                 while (filme[rand[n]].clas > Idade)
                 {
@@ -175,20 +221,23 @@ int main()
                 srand[n] = rand[n];
             }
 
-            for (int n = 0; n < 5; n++)
+            for (n = 0; n < 5; n++)
             {
-                cout << n << "- " << filme[rand[n]].nomef << endl;
+                if (rand[n] == rand[n + 1] || rand[n] == rand[n + 2])
+                    cout << " "; // garante que o filme nao apareca + de 1 vez
+                else
+                    cout << filme[rand[n]].nomef << endl;
             }
 
             break;
 
         case 5:
-            for (int n = 0; n < 5; n++)
+            for (n = 0; n < 5; n++)
             {
                 rand[n] = sorteio(408, 462);
             }
 
-            for (int n = 0; n < 5; n++)
+            for (n = 0; n < 5; n++)
             {
                 while (filme[rand[n]].clas > Idade)
                 {
@@ -201,20 +250,23 @@ int main()
                 srand[n] = rand[n];
             }
 
-            for (int n = 0; n < 5; n++)
+            for (n = 0; n < 5; n++)
             {
-                cout << n << "- " << filme[rand[n]].nomef << endl;
+                if (rand[n] == rand[n + 1] || rand[n] == rand[n + 2])
+                    cout << " "; // garante que o filme nao apareca + de 1 vez
+                else
+                    cout << filme[rand[n]].nomef << endl;
             }
 
             break;
 
         case 6:
-            for (int n = 0; n < 5; n++)
+            for (n = 0; n < 5; n++)
             {
                 rand[n] = sorteio(463, 507);
             }
 
-            for (int n = 0; n < 5; n++)
+            for (n = 0; n < 5; n++)
             {
                 while (filme[rand[n]].clas > Idade)
                 {
@@ -227,20 +279,23 @@ int main()
                 srand[n] = rand[n];
             }
 
-            for (int n = 0; n < 5; n++)
+            for (n = 0; n < 5; n++)
             {
-                cout << n << "- " << filme[rand[n]].nomef << endl;
+                if (rand[n] == rand[n + 1] || rand[n] == rand[n + 2])
+                    cout << " "; // garante que o filme nao apareca + de 1 vez
+                else
+                    cout << filme[rand[n]].nomef << endl;
             }
 
             break;
 
         case 7:
-            for (int n = 0; n < 5; n++)
+            for (n = 0; n < 5; n++)
             {
                 rand[n] = sorteio(508, 527);
             }
 
-            for (int n = 0; n < 5; n++)
+            for (n = 0; n < 5; n++)
             {
                 while (filme[rand[n]].clas > Idade)
                 {
@@ -253,20 +308,23 @@ int main()
                 srand[n] = rand[n];
             }
 
-            for (int n = 0; n < 5; n++)
+            for (n = 0; n < 5; n++)
             {
-                cout << n << "- " << filme[rand[n]].nomef << endl;
+                if (rand[n] == rand[n + 1] || rand[n] == rand[n + 2])
+                    cout << " "; // garante que o filme nao apareca + de 1 vez
+                else
+                    cout << filme[rand[n]].nomef << endl;
             }
 
             break;
 
         case 8:
-            for (int n = 0; n < 5; n++)
+            for (n = 0; n < 5; n++)
             {
                 rand[n] = sorteio(528, 547);
             }
 
-            for (int n = 0; n < 5; n++)
+            for (n = 0; n < 5; n++)
             {
                 while (filme[rand[n]].clas > Idade)
                 {
@@ -279,20 +337,23 @@ int main()
                 srand[n] = rand[n];
             }
 
-            for (int n = 0; n < 5; n++)
+            for (n = 0; n < 5; n++)
             {
-                cout << n << "- " << filme[rand[n]].nomef << endl;
+                if (rand[n] == rand[n + 1] || rand[n] == rand[n + 2])
+                    cout << " "; // garante que o filme nao apareca + de 1 vez
+                else
+                    cout << filme[rand[n]].nomef << endl;
             }
 
             break;
 
         case 9:
-            for (int n = 0; n < 5; n++)
+            for (n = 0; n < 5; n++)
             {
                 rand[n] = sorteio(548, 567);
             }
 
-            for (int n = 0; n < 5; n++)
+            for (n = 0; n < 5; n++)
             {
                 while (filme[rand[n]].clas > Idade)
                 {
@@ -305,9 +366,12 @@ int main()
                 srand[n] = rand[n];
             }
 
-            for (int n = 0; n < 5; n++)
+            for (n = 0; n < 5; n++)
             {
-                cout << n << "- " << filme[rand[n]].nomef << endl;
+                if (rand[n] == rand[n + 1] || rand[n] == rand[n + 2])
+                    cout << " "; // garante que o filme nao apareca + de 1 vez
+                else
+                    cout << filme[rand[n]].nomef << endl;
             }
 
             break;
@@ -323,7 +387,8 @@ int main()
 
         srand[n] = -1; // Exclui o filme assistido do vetor
 
-        cout << "Esa indicações foram úteis pra você?" << endl << "0- Nao  1- Sim" << endl;
+        cout << "Essas indicacoes foram uteis pra voce?" << endl
+             << "0- Nao  1- Sim" << endl;
         cin >> rindic;
 
         cout << "Deseja assistir outro filme?" << endl; // Pergunta se o usuario deseja ver outro filme
