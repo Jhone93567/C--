@@ -36,7 +36,7 @@ int main()
 	// Colocando todos os valores do vetor em -1
 	for (n = 0; n < 10; n++)
 	{
-		srand[n] = -1;
+		rand[n],srand[n] = -1;
 	}
 
 	// 0 a 134 acao / aventura, 135 a 194 animacao, 195 a 287 comedia, 288 a 407 drama / suspense, 408 a 462 terror, 463 a 507 ficcao cientifica, 508 a 527 romance, 528 a 547 historico, 548 a 567 musical
@@ -65,7 +65,6 @@ int main()
 	// variaveis de leitura de arquivo
 	ifstream arq3;
 	char N[200]; // nome;
-	int ID;		 // idade
 	int GR;		 // genero
 
 	// opcao de escolha
@@ -150,7 +149,7 @@ int main()
 
 			// recebendo dados do arquivo
 			arq3.getline(N, 200);
-			arq3 >> ID;
+			arq3 >> Idade;
 			arq3 >> GR;
 
 			// fechando o arquivo
@@ -177,6 +176,23 @@ int main()
 
 		cin >> rgen; // entrada da resposta
 
+		if (rgen == 5 && Idade < 16)
+		{
+			cout << "Sinto muito, voce nao tem idade suficiente para esse genero, por favor escolha outro." << endl;
+
+			cout << "1 - Acao/Aventura  2 - Animacao  3 - Comedia  4 - Drama/Suspense  5 - Terror  6 - Ficcao cientifica  7 - Romance  8 - Historico  9 - Musical" << endl;
+		
+			cin >> rgen;
+		}
+		else if (rgen == 8 && Idade < 12)
+		{
+			cout << "Sinto muito, voce nao tem idade suficiente para esse genero, por favor escolha outro." << endl;
+
+			cout << "1 - Acao/Aventura  2 - Animacao  3 - Comedia  4 - Drama/Suspense  5 - Terror  6 - Ficcao cientifica  7 - Romance  8 - Historico  9 - Musical" << endl;
+		
+			cin >> rgen;
+		}
+
 		switch (rgen) // switch para cada genero escolhido
 		{
 		case 1:
@@ -197,6 +213,7 @@ int main()
 			{
 				if (rand[n] == rand[n + 1] || rand[n] == rand[n + 2])
 				{
+					rand[n] = -1;
 				} // garante que o filme nao apareca + de 1 vez
 				else
 				{
@@ -245,6 +262,7 @@ int main()
 			{
 				if (rand[n] == rand[n + 1] || rand[n] == rand[n + 2])
 				{
+					rand[n] = -1;
 				} // garante que o filme nao apareca + de 1 vez
 				else
 				{
@@ -293,6 +311,7 @@ int main()
 			{
 				if (rand[n] == rand[n + 1] || rand[n] == rand[n + 2])
 				{
+					rand[n] = -1;
 				} // garante que o filme nao apareca + de 1 vez
 				else
 				{
@@ -341,6 +360,7 @@ int main()
 			{
 				if (rand[n] == rand[n + 1] || rand[n] == rand[n + 2])
 				{
+					rand[n] = -1;
 				} // garante que o filme nao apareca + de 1 vez
 				else
 				{
@@ -389,6 +409,7 @@ int main()
 			{
 				if (rand[n] == rand[n + 1] || rand[n] == rand[n + 2])
 				{
+					rand[n] = -1;
 				} // garante que o filme nao apareca + de 1 vez
 				else
 				{
@@ -437,6 +458,7 @@ int main()
 			{
 				if (rand[n] == rand[n + 1] || rand[n] == rand[n + 2])
 				{
+					rand[n] = -1;
 				} // garante que o filme nao apareca + de 1 vez
 				else
 				{
@@ -485,6 +507,7 @@ int main()
 			{
 				if (rand[n] == rand[n + 1] || rand[n] == rand[n + 2])
 				{
+					rand[n] = -1;
 				} // garante que o filme nao apareca + de 1 vez
 				else
 				{
@@ -533,6 +556,7 @@ int main()
 			{
 				if (rand[n] == rand[n + 1] || rand[n] == rand[n + 2])
 				{
+					rand[n] = -1;
 				} // garante que o filme nao apareca + de 1 vez
 				else
 				{
@@ -581,6 +605,7 @@ int main()
 			{
 				if (rand[n] == rand[n + 1] || rand[n] == rand[n + 2])
 				{
+					rand[n] = -1;
 				} // garante que o filme nao apareca + de 1 vez
 				else
 				{
@@ -619,7 +644,7 @@ int main()
 
 		cin >> n;
 
-		srand[n-1] = -1; // Exclui o filme assistido do vetor
+		srand[n - 1] = -1; // Exclui o filme assistido do vetor
 
 		cout << "Essas indicacoes foram uteis pra voce?" << endl
 			 << "0- Nao  1- Sim" << endl;
