@@ -22,7 +22,7 @@ Bad Boys para Sempre
 16
 Birds of Prey: Aves de Rapina
 16
-Jumanji: Próxima Fase
+Jumanji: Proxima Fase
 12
 Velozes e Furiosos: Hobbs & Shaw
 14
@@ -30,7 +30,7 @@ John Wick 3: Parabellum
 16
 Vingadores: Ultimato
 12
-Missão: Impossível - Efeito Fallout
+Missao: Impossivel - Efeito Fallout
 14
 Pantera Negra
 12
@@ -40,7 +40,7 @@ Homem-Formiga e a Vespa
 12
 Os Incriveis 2
 12
-Jurassic World: Reino Ameaçado
+Jurassic World: Reino Ameacado
 12
 Vingadores: Guerra Infinita
 12
@@ -56,39 +56,39 @@ John Wick 2: Um Novo Dia Para Matar
 16
 Doutor Estranho
 12
-Capitão América: Guerra Civil
+Capitao America: Guerra Civil
 12
-Batman vs. Superman: A Origem da Justiça
+Batman vs. Superman: A Origem da Justica
 12
 Deadpool
 16
-Mad Max: Estrada da Fúria
+Mad Max: Estrada da Furia
 16
 Vingadores: Era de Ultron
 12
 Velozes e Furiosos 7
 14
-Jogos Vorazes: A Esperança - Parte 2
+Jogos Vorazes: A Esperanca - Parte 2
 14
 Jurassic World: O Mundo dos Dinossauros
 12
 Velozes e Furiosos 6
 14
-O Espetacular Homem-Aranha 2: A Ameaça de Electro
+O Espetacular Homem-Aranha 2: A Ameaca de Electro
 12
-O Hobbit: A Batalha dos Cinco Exércitos
+O Hobbit: A Batalha dos Cinco Exercitos
 14
-Capitão América: O Soldado Invernal
+Capitao America: O Soldado Invernal
 12
 Thor: O Mundo Sombrio
 12
 Homem de Ferro 3
 12
-Velozes e Furiosos 5: Operação Rio
+Velozes e Furiosos 5: Operacao Rio
 14
-Missão: Impossível - Protocolo Fantasma
+Missao: Impossivel - Protocolo Fantasma
 14
-Piratas do Caribe: Navegando em Águas Misteriosas
+Piratas do Caribe: Navegando em Aguas Misteriosas
 12
 X-Men: Primeira Classe
 12
@@ -108,9 +108,9 @@ Batman Begins
 12
 X-Men 3: O Confronto Final
 14
-Missão: Impossível 3
+Missao: Impossivel 3
 14
-Star Wars: Episódio III - A Vingança dos Sith
+Star Wars: Episodio III - A Vinganca dos Sith
 12
 Homem-Aranha 2
 12
@@ -118,17 +118,17 @@ Homem-Aranha 2
 14
 X-Men 2
 12
-Missão: Impossível 2
+Missao: Impossivel 2
 14
 Gladiador
 16
 Matrix
 14
-Star Wars: Episódio I - A Ameaça Fantasma
+Star Wars: Episodio I - A Ameaca Fantasma
 12
-Velocidade Máxima 2
+Velocidade Maxima 2
 14
-Missão: Impossível
+Missao: Impossivel
 14
 O Exterminador do Futuro 2: O Julgamento Final
 14
@@ -138,13 +138,13 @@ Aliens, O Resgate
 16
 RoboCop (1987)
 16
-Mad Max 2: A Caçada Continua
+Mad Max 2: A Cacada Continua
 16
-Indiana Jones e os Caçadores da Arca Perdida
+Indiana Jones e os Cacadores da Arca Perdida
 12
-Blade Runner: O Caçador de Androides
+Blade Runner: O Cacador de Androides
 16
-Conan, o Bárbaro (1982)
+Conan, o Barbaro (1982)
 16
 007: Somente para Seus Olhos
 14
@@ -152,11 +152,11 @@ Alien: O Oitavo Passageiro
 16
 Superman II: A Aventura Continua
 12
-Star Wars: Episódio V - O Império Contra-Ataca
+Star Wars: Episodio V - O Imperio Contra-Ataca
 12
 Mad Max
 16
-007: O Espião que me Amava
+007: O Espiao que me Amava
 14
 Rocky: Um Lutador
 14
@@ -166,19 +166,19 @@ Superman (1978)
 14
 Os 12 Macacos
 14
-Dirty Harry - Perseguição Implacável
+Dirty Harry - Perseguicao Implacavel
 16
-Operação Dragão
+Operacao Dragao
 16
 O Franco Atirador
 16
 Taxi Driver
 18
-Duelo de Titãs
+Duelo de Titas
 12
 James Bond: 007 - Goldfinger
 14
-007 Contra o Satânico Dr. No
+007 Contra o Satanico Dr. No
 14
 Matar ou Morrer
 12
@@ -188,77 +188,77 @@ O Grande Roubo do Trem
 12
 Indiana Jones 5
 12
-Piratas do Caribe: A Vingança de Salazar
+Piratas do Caribe: A Vinganca de Salazar
 12
 Mulher-Maravilha 1984
 12
-Jumanji: Bem-Vindo à Selva
+Jumanji: Bem-Vindo a Selva
 12
-Guardiões da Galáxia Vol. 2
+Guardioes da Galaxia Vol. 2
 12
 Kong: A Ilha da Caveira
 12
-Animais Fantásticos e Onde Habitam
+Animais Fantasticos e Onde Habitam
 12
-Star Wars: Episódio VII - O Despertar da Força
+Star Wars: Episodio VII - O Despertar da Forca
 12
-O Hobbit: A Desolação de Smaug
+O Hobbit: A Desolacao de Smaug
 12
 Gravidade
 12
-Capitão Phillips
+Capitao Phillips
 14
 As Aventuras de Pi
 12
-O Senhor dos Anéis: O Retorno do Rei
+O Senhor dos Aneis: O Retorno do Rei
 12
-Star Wars: Episódio II - Ataque dos Clones
+Star Wars: Episodio II - Ataque dos Clones
 12
-Harry Potter e a Câmara Secreta
+Harry Potter e a Camara Secreta
 12
 Jurassic Park III
 12
-A Múmia: A Tumba do Imperador Dragão
+A Mumia: A Tumba do Imperador Dragao
 12
 Batman (1989)
 14
-O Senhor dos Anéis: A Sociedade do Anel
+O Senhor dos Aneis: A Sociedade do Anel
 12
-A Múmia (1999)
+A Mumia (1999)
 12
-Indiana Jones e o Templo da Perdição
+Indiana Jones e o Templo da Perdicao
 12
 Superman: O Filme
 14
-Star Wars: Episódio IV - Uma Nova Esperança
+Star Wars: Episodio IV - Uma Nova Esperanca
 12
 A Lenda do Tesouro Perdido
 12
 Super 8
 12
-Harry Potter e o Cálice de Fogo
+Harry Potter e o Calice de Fogo
 12
-O Senhor dos Anéis: As Duas Torres
+O Senhor dos Aneis: As Duas Torres
 12
 Indiana Jones: Em Busca da Arca Perdida
 12
 Superman II: A Aventura Continua
 12
-O Império do Sol
+O Imperio do Sol
 12
-A História Sem Fim
+A Historia Sem Fim
 0
-Stardust: O Mistério da Estrela
+Stardust: O Misterio da Estrela
 10
 Harry Potter e o Prisioneiro de Azkaban
 12
-O Senhor dos Anéis: O Retorno do Rei
+O Senhor dos Aneis: O Retorno do Rei
 12
-Piratas do Caribe: A Maldição do Pérola Negra
+Piratas do Caribe: A Maldicao do Perola Negra
 12
 Jurassic Park: O Parque dos Dinossauros
 12
-Indiana Jones e a Última Cruzada
+Indiana Jones e a Ultima Cruzada
 12
 A Princesa Prometida
 0
@@ -266,33 +266,33 @@ O Exterminador do Futuro 2: O Julgamento Final
 14
 A Lenda do Tesouro Perdido: Livro dos Segredos
 10
-Indiana Jones e o Templo da Perdição
+Indiana Jones e o Templo da Perdicao
 12
 Toy Story 4
 0
 Frozen 2
 0
-Como Treinar o seu Dragão 3
+Como Treinar o seu Dragao 3
 0
 WiFi Ralph: Quebrando a Internet
 0
-Os Incríveis 2
+Os Incriveis 2
 0
 O Grinch (2018)
 0
 Homem-Aranha no Aranhaverso
 0
-Hotel Transilvânia 3: Férias Monstruosas
+Hotel Transilvania 3: Ferias Monstruosas
 0
 Moana: Um Mar de Aventuras
 0
 Sing: Quem Canta Seus Males Espanta
 0
-Zootopia: Essa Cidade é o Bicho
+Zootopia: Essa Cidade e o Bicho
 0
 Divertida Mente
 0
-Como Treinar o seu Dragão 2
+Como Treinar o seu Dragao 2
 0
 Frozen: Uma Aventura Congelante
 0
@@ -304,7 +304,7 @@ Valente
 0
 Toy Story 3
 0
-Como Treinar o seu Dragão
+Como Treinar o seu Dragao
 0
 Up: Altas Aventuras
 0
@@ -312,7 +312,7 @@ Wall-E
 0
 Ratatouille
 0
-Happy Feet: O Pingüim
+Happy Feet: O Pinguim
 0
 A Era do Gelo 2
 0
@@ -320,13 +320,13 @@ Procurando Nemo
 0
 Shrek 2
 0
-Spirit: O Corcel Indomável
+Spirit: O Corcel Indomavel
 0
 Monstros S.A.
 0
 A Era do Gelo
 0
-O Rei Leão II: O Reino de Simba
+O Rei Leao II: O Reino de Simba
 0
 Toy Story 2
 0
@@ -334,7 +334,7 @@ O Corcunda de Notre Dame
 0
 A Bela e a Fera
 0
-O Rei Leão
+O Rei Leao
 0
 Aladdin
 0
@@ -352,7 +352,7 @@ Mogli: O Menino Lobo
 0
 Aristogatas
 0
-Os 101 Dálmatas
+Os 101 Dalmatas
 0
 A Bela Adormecida
 0
@@ -362,11 +362,11 @@ A Espada Era a Lei
 0
 Peter Pan
 0
-Alice no País das Maravilhas
+Alice no Pais das Maravilhas
 0
-A Branca de Neve e os Sete Anões
+A Branca de Neve e os Sete Anoes
 0
-Pinóquio
+Pinoquio
 0
 Fantasia
 0
@@ -374,7 +374,7 @@ Bambi
 0
 Dumbo
 0
-Hércules
+Hercules
 0
 Mulan
 0
@@ -384,25 +384,25 @@ A Nova Onda do Imperador
 0
 Lilo & Stitch
 0
-Irmão Urso
+Irmao Urso
 0
 Carros
 0
-Jumanji: Próxima Fase
+Jumanji: Proxima Fase
 12
 As Trapaceiras
 14
 Bons Meninos
 16
-Meu Nome é Dolemite
+Meu Nome e Dolemite
 16
 Entre Facas e Segredos
 14
-Aprendiz de Espiã
+Aprendiz de Espia
 0
-Fora de Série
+Fora de Serie
 14
-Superbad: É Hoje
+Superbad: E Hoje
 16
 Deadpool
 16
@@ -410,9 +410,9 @@ Vizinhos
 16
 Uma Noite de Loucuras
 16
-Se Beber, Não Case!
+Se Beber, Nao Case!
 16
-Zumbilândia: Atire Duas Vezes
+Zumbilandia: Atire Duas Vezes
 16
 Meu Malvado Favorito 3
 0
@@ -422,11 +422,11 @@ Baywatch: S.O.S Malibu
 16
 Vizinhos Nada Secretos
 12
-O Espião que Sabia Demais
+O Espiao que Sabia Demais
 14
 A Ressaca
 16
-Saltimbancos Trapalhões: Rumo a Hollywood
+Saltimbancos Trapalhoes: Rumo a Hollywood
 0
 Deadpool 2
 16
@@ -436,7 +436,7 @@ Ted
 16
 Meninas Malvadas
 12
-Todo Mundo em Pânico
+Todo Mundo em Panico
 14
 Agente 86
 12
@@ -444,7 +444,7 @@ Apenas Duas Noites
 16
 Hot Fuzz - Chumbo Grosso
 16
-Borat: O Segundo Melhor Repórter do Glorioso País Cazaquistão Viaja à América
+Borat: O Segundo Melhor Repórter do Glorioso Pais Cazaquistao Viaja a America
 16
 Escola de Rock
 10
@@ -452,7 +452,7 @@ Todo Mundo Quase Morto
 16
 Anchorman: The Legend of Ron Burgundy
 14
-Zumbilândia
+Zumbilandia
 16
 Eu, Eu Mesmo & Irene
 16
@@ -462,13 +462,13 @@ Austin Powers: O Agente "Bond" Cama
 12
 American Pie
 16
-Corra que a Polícia Vem Aí!
+Corra que a Policia Vem Ai!
 12
 Ace Ventura: Um Detetive Diferente
 12
 E Se Fosse Verdade...
 12
-American Pie 2 - A Segunda Vez é Ainda Melhor
+American Pie 2 - A Segunda Vez e Ainda Melhor
 16
 De Repente 30
 0
@@ -480,11 +480,11 @@ Menina de Ouro
 14
 Hitch - Conselheiro Amoroso
 12
-Táxi
+Taxi
 10
 O Terminal
 0
-Todo Mundo em Pânico 3
+Todo Mundo em Panico 3
 16
 Como Perder um Homem em 10 Dias
 0
@@ -492,31 +492,31 @@ American Pie: O Casamento
 16
 Prenda-me Se For Capaz
 12
-Debi & Lóide - Dois Idiotas em Apuros
+Debi & Loide - Dois Idiotas em Apuros
 14
-A Vida é Bela
+A Vida e Bela
 12
-Loucademia de Polícia
+Loucademia de Policia
 14
-O Máskara
+O Maskara
 10
 O Pentelho
 12
 Meu Primeiro Amor
 0
-Wayne's World - Loucademia de Música
+Wayne's World - Loucademia de Musica
 0
 Ace Ventura: Um Detetive Diferente
 12
-Táxi
+Taxi
 10
 Curtindo a Vida Adoidado
 10
-Os Irmãos Cara de Pau
+Os Irmaos Cara de Pau
 12
 O Auto da Compadecida
 0
-Um Tira no Jardim de Infância
+Um Tira no Jardim de Infancia
 0
 A Casa Caiu
 14
@@ -536,7 +536,7 @@ O Candidato Honesto
 12
 Anjos da Lei 2
 14
-Tiras, Só que Não
+Tiras, So que Nao
 14
 As Branquelas
 14
@@ -546,7 +546,7 @@ Vizinhos 2
 16
 O Ditador
 16
-O Espanta Tubarões
+O Espanta Tubaroes
 0
 Meu Malvado Favorito
 0
@@ -576,11 +576,11 @@ Kung Fu Panda
 0
 Parasita
 16
-O Irlandês
+O Irlandes
 16
 Coringa
 16
-História de um Casamento
+Historia de um Casamento
 14
 1917
 16
@@ -588,9 +588,9 @@ Era Uma Vez em... Hollywood
 16
 O Farol
 16
-Ad Astra: Rumo às Estrelas
+Ad Astra: Rumo as Estrelas
 14
-Dor e Glória
+Dor e Gloria
 16
 Rocketman
 16
@@ -610,19 +610,19 @@ Vice
 14
 A Esposa
 14
-Projeto Flórida
+Projeto Florida
 16
 Lady Bird: A Hora de Voar
 14
-Três Anúncios Para um Crime
+Tres Anuncios Para um Crime
 16
-O Destino de uma Nação
+O Destino de uma Nacao
 12
 Dunkirk
 14
-Manchester à Beira-Mar
+Manchester a Beira-Mar
 14
-La La Land: Cantando Estações
+La La Land: Cantando Estacoes
 12
 Moonlight: Sob a Luz do Luar
 16
@@ -634,13 +634,13 @@ Spotlight: Segredos Revelados
 14
 O Quarto de Jack
 14
-Birdman ou (A Inesperada Virtude da Ignorância)
+Birdman ou (A Inesperada Virtude da Ignorancia)
 16
-Boyhood: Da Infância à Juventude
+Boyhood: Da Infancia a Juventude
 14
 O Lobo de Wall Street
 16
-12 Anos de Escravidão
+12 Anos de Escravidao
 14
 Gravidade
 12
@@ -660,11 +660,11 @@ As Aventuras de Pi
 12
 O Lado Bom da Vida
 14
-A Invenção de Hugo Cabret
+A Invencao de Hugo Cabret
 10
-A Árvore da Vida
+A Arvore da Vida
 12
-Bravura Indômita
+Bravura Indomita
 16
 Cisne Negro
 16
@@ -674,15 +674,15 @@ Guerra ao Terror
 16
 O Curioso Caso de Benjamin Button
 12
-Quem Quer Ser um Milionário?
+Quem Quer Ser um Milionario?
 14
 O Leitor
 16
 Sangue Negro
 16
-Desejo e Reparação
+Desejo e Reparacao
 16
-Onde os Fracos Não Têm Vez
+Onde os Fracos Nao Tem Vez
 16
 O Escafandro e a Borboleta
 14
@@ -706,7 +706,7 @@ O Aviador
 12
 Sideways - Entre Umas e Outras
 14
-Diários de Motocicleta
+Diarios de Motocicleta
 14
 As Horas
 14
@@ -718,7 +718,7 @@ Beleza Americana
 18
 O Resgate do Soldado Ryan
 16
-A Vida é Bela
+A Vida e Bela
 12
 Titanic
 12
@@ -726,9 +726,9 @@ O Piano
 14
 A Lista de Schindler
 14
-Perfume: A História de um Assassino
+Perfume: A Historia de um Assassino
 18
-O Tigre e o Dragão
+O Tigre e o Dragao
 12
 Clube da Luta
 18
@@ -736,21 +736,21 @@ Beleza Oculta
 10
 A Teoria de Tudo
 12
-O Jogo da Imitação
+O Jogo da Imitacao
 12
 Lion: Uma Jornada Para Casa
 12
-Capitão Fantástico
+Capitao Fantastico
 14
-A Forma da Água
+A Forma da Agua
 16
 Moonlight: Sob a Luz do Luar
 16
-Manchester à Beira-Mar
+Manchester a Beira-Mar
 14
 A Chegada
 12
-Estrelas Além do Tempo
+Estrelas Alem do Tempo
 10
 Me Chame Pelo Seu Nome
 16
@@ -762,11 +762,11 @@ O Discurso do Rei
 12
 Onde Vivem os Monstros
 0
-Preciosa: Uma História de Esperança
+Preciosa: Uma Historia de Esperanca
 16
-Whiplash: Em Busca da Perfeição
+Whiplash: Em Busca da Perfeicao
 14
-A Separação
+A Separacao
 14
 Quarto
 14
@@ -774,11 +774,11 @@ Elle
 18
 Melancolia
 16
-Ad Astra: Rumo às Estrelas
+Ad Astra: Rumo as Estrelas
 14
-Nós
+Nos
 16
-Midsommar: O Mal Não Espera a Noite
+Midsommar: O Mal Nao Espera a Noite
 18
 Infiltrado na Klan
 14
@@ -796,35 +796,35 @@ Psicose
 14
 Seven: Os Sete Crimes Capitais
 18
-Silêncio dos Inocentes
+Silencio dos Inocentes
 16
 O Chamado
 14
 Oldboy
 18
-Onde os Fracos Não Têm Vez
+Onde os Fracos Nao Tem Vez
 16
-A Órfã
+A Orfa
 16
 A Garota no Trem
 14
 A Sombra do Inimigo
 14
-Atração Perigosa
+Atracao Perigosa
 16
-Zodíaco
+Zodiaco
 16
 A Quiet Place: Part II
 14
 O Farol
 16
-Midsommar: O Mal Não Espera a Noite
+Midsommar: O Mal Nao Espera a Noite
 18
 Annabelle 3: De Volta Para Casa
 14
-It: Capítulo Dois
+It: Capitulo Dois
 16
-Nós
+Nos
 16
 Maligno
 16
@@ -832,25 +832,25 @@ Escape Room
 14
 A Freira
 16
-Hereditário
+Hereditario
 16
 Um Lugar Silencioso
 14
 Corra!
 16
-Invocação do Mal 2
+Invocacao do Mal 2
 14
 A Bruxa
 16
-Sobrenatural: A Última Chave
+Sobrenatural: A Ultima Chave
 14
-Annabelle 2: A Criação do Mal
+Annabelle 2: A Criacao do Mal
 14
 It: A Coisa
 16
 Ouija: Origem do Mal
 14
-Invocação do Mal
+Invocacao do Mal
 14
 A Visita
 14
@@ -858,19 +858,19 @@ Corrente do Mal
 16
 Annabelle
 14
-Sobrenatural: Capítulo 3
+Sobrenatural: Capitulo 3
 14
 It Follows
 16
 O Babadook
 16
-O Último Exorcismo
+O Ultimo Exorcismo
 14
 Atividade Paranormal 3
 14
 Insidious
 14
-O Último Exorcismo Parte II
+O Ultimo Exorcismo Parte II
 14
 A Mulher de Preto
 14
@@ -878,15 +878,15 @@ Atividade Paranormal 2
 14
 O Ritual
 14
-Paranormal Activity: Tóquio Night
+Paranormal Activity: Toquio Night
 14
 A Casa do Medo: Incidente em Ghostland
 18
-O Cemitério Maldito
+O Cemiterio Maldito
 16
 O Predador
 16
-O Massacre da Serra Elétrica
+O Massacre da Serra Eletrica
 18
 Halloween (2018)
 16
@@ -894,9 +894,9 @@ O Chamado
 14
 A Casa dos 1000 Corpos
 18
-Premonição
+Premonicao
 16
-Sobrenatural: Capítulo 2
+Sobrenatural: Capitulo 2
 14
 A Hora do Pesadelo (2010)
 16
@@ -914,13 +914,13 @@ Martyrs
 18
 O Albergue
 18
-A Órfã
+A Orfa
 16
-Pânico
+Panico
 16
 A Entidade
 16
-A Maldição da Chorona
+A Maldicao da Chorona
 14
 Corrente do Mal
 16
@@ -934,9 +934,9 @@ Interestelar
 12
 Doutor Estranho
 12
-Jurassic World: Reino Ameaçado
+Jurassic World: Reino Ameacado
 12
-Star Wars: Os Últimos Jedi
+Star Wars: Os Ultimos Jedi
 12
 Alita: Anjo de Combate
 14
@@ -944,9 +944,9 @@ Jogador Nº1
 12
 A Chegada
 12
-Guardiões da Galáxia Vol. 2
+Guardioes da Galaxia Vol. 2
 12
-Rogue One: Uma História Star Wars
+Rogue One: Uma Historia Star Wars
 12
 Passageiros
 12
@@ -962,21 +962,21 @@ O Espetacular Homem-Aranha
 12
 Gravidade
 12
-Star Trek: Além da Escuridão
+Star Trek: Alem da Escuridao
 12
 Prometheus
 14
 Os Vingadores
 12
-Star Wars: Episódio I - A Ameaça Fantasma
+Star Wars: Episodio I - A Ameaca Fantasma
 12
 Homem-Aranha: De Volta ao Lar
 12
 Mulher-Maravilha
 12
-O Rei Leão (2019)
+O Rei Leao (2019)
 12
-Capitã Marvel
+Capita Marvel
 12
 Vingadores: Guerra Infinita
 14
@@ -984,7 +984,7 @@ Pantera Negra
 14
 Thor: Ragnarok
 12
-Guardiões da Galáxia
+Guardioes da Galaxia
 12
 Vingadores
 12
@@ -992,11 +992,11 @@ Homem de Ferro
 12
 Batman: O Cavaleiro das Trevas
 16
-O Senhor dos Anéis: O Retorno do Rei
+O Senhor dos Aneis: O Retorno do Rei
 12
 Interestelar
 12
-Pulp Fiction: Tempo de Violência
+Pulp Fiction: Tempo de Violencia
 18
 Clube da Luta
 18
@@ -1006,21 +1006,21 @@ Matrix
 14
 O Iluminado
 16
-O Silêncio dos Inocentes
+O Silencio dos Inocentes
 18
 Matrix Reloaded
 14
 A Viagem de Chihiro
 0
-O Poderoso Chefão
+O Poderoso Chefe
 16
 O Casamento do Meu Melhor Amigo
 12
-O Diário de uma Paixão
+O Diario de uma Paixao
 12
-Como Eu Era Antes de Você
+Como Eu Era Antes de Voce
 12
-La La Land: Cantando Estações
+La La Land: Cantando Estacoes
 12
 Simplesmente Acontece
 12
@@ -1046,27 +1046,27 @@ Um Lugar Chamado Notting Hill
 12
 Doce Novembro
 12
-O Fabuloso Destino de Amélie Poulain
+O Fabuloso Destino de Amelie Poulain
 12
 Casa Comigo?
 12
-O Diário da Princesa
+O Diario da Princesa
 0
-Questão de Tempo
+Questao de Tempo
 12
 Ben-Hur
 14
 Spartacus
 14
-Lawrence da Arábia
+Lawrence da Arabia
 14
-O Último Imperador
+O Ultimo Imperador
 14
 Amadeus
 14
 Gladiador
 14
-Cleópatra
+Cleopatra
 14
 Apocalypto
 16
@@ -1074,15 +1074,15 @@ Os Dez Mandamentos
 12
 O Nome da Rosa
 16
-1492: A Conquista do Paraíso
+1492: A Conquista do Paraiso
 14
 Gandhi
 14
 Doutor Jivago
 14
-O Último dos Moicanos
+O Ultimo dos Moicanos
 14
-Odisseia no Espaço
+Odisseia no Espaco
 12
 Barry Lyndon
 14
@@ -1092,13 +1092,13 @@ O Patriota
 16
 Amistad
 14
-A Paixão de Cristo
+A Paixao de Cristo
 16
 La La Land
 0
 Nasce uma Estrela (2018)
 16
-Mamma Mia! Lá Vamos Nós de Novo
+Mamma Mia! La Vamos Nos de Novo
 0
 Bohemian Rhapsody
 14
@@ -1110,17 +1110,17 @@ Rocketman
 16
 A Escolha Perfeita
 12
-Sing Street: Música e Sonho
+Sing Street: Musica e Sonho
 14
 Across the Universe
 14
 Chicago
 12
-O Fantasma da Ópera
+O Fantasma da Opera
 12
 Moulin Rouge: Amor em Vermelho
 14
-Os Miseráveis (2012)
+Os Miseraveis (2012)
 12
 A Bela e a Fera (2017)
 0
@@ -1128,7 +1128,7 @@ Grease: Nos Tempos da Brilhantina
 14
 Hairspray: Em Busca da Fama
 0
-Rent: Os Boêmios
+Rent: Os Boemios
 14
 O Cantor de Jazz
 12
