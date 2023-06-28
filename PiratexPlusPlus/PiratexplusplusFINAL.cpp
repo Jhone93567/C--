@@ -36,7 +36,7 @@ int main()
 	// Colocando todos os valores do vetor em -1
 	for (n = 0; n < 10; n++)
 	{
-		rand[n],srand[n] = -1;
+		rand[n], srand[n] = -1;
 	}
 
 	// 0 a 134 acao / aventura, 135 a 194 animacao, 195 a 287 comedia, 288 a 407 drama / suspense, 408 a 462 terror, 463 a 507 ficcao cientifica, 508 a 527 romance, 528 a 547 historico, 548 a 567 musical
@@ -176,20 +176,12 @@ int main()
 
 		cin >> rgen; // entrada da resposta
 
-		if (rgen == 5 && Idade < 16)
+		while ((rgen == 5 && Idade < 16) || (rgen == 8 && Idade < 12))
 		{
 			cout << "Sinto muito, voce nao tem idade suficiente para esse genero, por favor escolha outro." << endl;
 
 			cout << "1 - Acao/Aventura  2 - Animacao  3 - Comedia  4 - Drama/Suspense  5 - Terror  6 - Ficcao cientifica  7 - Romance  8 - Historico  9 - Musical" << endl;
-		
-			cin >> rgen;
-		}
-		else if (rgen == 8 && Idade < 12)
-		{
-			cout << "Sinto muito, voce nao tem idade suficiente para esse genero, por favor escolha outro." << endl;
 
-			cout << "1 - Acao/Aventura  2 - Animacao  3 - Comedia  4 - Drama/Suspense  5 - Terror  6 - Ficcao cientifica  7 - Romance  8 - Historico  9 - Musical" << endl;
-		
 			cin >> rgen;
 		}
 
@@ -675,5 +667,3 @@ int main()
 
 	return 0;
 }
-
-// terminar de configurar o sistema de indicacoes, o codigo deve retornar as opcoes que nao foram escolhidas, na proxima vez caso rindic = 1 - Eu
