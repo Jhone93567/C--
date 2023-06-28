@@ -619,7 +619,7 @@ int main()
 
 		cin >> n;
 
-		srand[n] = -1; // Exclui o filme assistido do vetor
+		srand[n-1] = -1; // Exclui o filme assistido do vetor
 
 		cout << "Essas indicacoes foram uteis pra voce?" << endl
 			 << "0- Nao  1- Sim" << endl;
