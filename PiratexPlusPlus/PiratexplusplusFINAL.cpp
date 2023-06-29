@@ -36,7 +36,8 @@ int main()
 	// Colocando todos os valores do vetor em -1
 	for (n = 0; n < 10; n++)
 	{
-		rand[n], srand[n] = -1;
+		rand[n] = -1;
+		srand[n] = -1;
 	}
 
 	// 0 a 134 acao / aventura, 135 a 194 animacao, 195 a 287 comedia, 288 a 407 drama / suspense, 408 a 462 terror, 463 a 507 ficcao cientifica, 508 a 527 romance, 528 a 547 historico, 548 a 567 musical
