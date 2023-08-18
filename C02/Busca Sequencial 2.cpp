@@ -18,7 +18,7 @@ int busca(string nome, aluno alunos[], int n)
 
     for (i = 0; i < n; i++)
     {
-        if (alunos[i].nomes == nome) // se encontrar aluem no vetor com o nome buscado
+        if (alunos[i].nomes == nome) // se encontrar alguem no vetor com o nome buscado
         {
             break; // sai do loop
         }
