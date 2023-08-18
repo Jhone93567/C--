@@ -18,7 +18,7 @@ int busca(int idade, aluno alunos[], int n)
 
     for (int i = 0; i < n; i++)
     {
-        if (alunos[i].idade == idade || alunos[i].idade < idade) // se o aluno tiver a idade igual ou menor que a comparada
+        if (alunos[i].idade <= idade) // se o aluno tiver a idade igual ou menor que a comparada
         {
             c++; // incrementa o contador
         }
