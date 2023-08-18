@@ -11,7 +11,10 @@ struct aluno
     int idade;
 };
 
-// funcao que recebe o nome de um aluno e retorna suas informacoes
+/* RESPOSTA DO QUESTAO 1:
+Nao e possivel, a busca bunaria tem como requisito um vetor organizado em ordem crescente, 
+como o vetor que estamos fazendo a busca e de nomes, nao e possivel ordenalo em ordem crescente.
+Outra alternativa seria a busca sequencial, ela usa mais processamento e memoria RAM mas consegue fazer a busca.*/
 int busca(string nome, aluno alunos[], int n)
 {
     int i; // contador do for

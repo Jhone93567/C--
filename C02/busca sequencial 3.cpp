@@ -11,7 +11,10 @@ struct aluno
     int idade;
 };
 
-// funcao que recebe um numero e retorna quantos alunos possuem idade igual ou menor a esse numero
+/* RESPOSTA DO QUESTAO 3:
+Sim, e possivel mas a funcao deve estar ordenada, e como neste caso ela nao esta, segue abaixo uma funcao que 
+faz o que esta sendo pedido, porem usando busca sequencial e um contador, sendo esta uma alternativa para quando
+o vetor nao estives ordenado.*/
 int busca(int idade, aluno alunos[], int n)
 {
     int c = 0; // contador

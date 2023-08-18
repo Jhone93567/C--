@@ -18,19 +18,23 @@ int busca(int matricula, aluno alunos[], int n)
 {
     int i = 0;
     n -= 1;
-    int p = -1;
+    int p;
 
     do    
     {
         p = (i + n) / 2;
 
-        if (alunos[p].matricula < matricula)
+        if (alunos[p].matricula == matricula)
         {
-            i = p;
+            break;
+        }
+        else if (alunos[p].matricula < matricula)
+        {
+            i = p + 1;
         }
         else if (alunos[p].matricula > matricula)
         {
-            n = p;
+            n = p - 1;
         }
     }
     while (alunos[p].matricula != matricula);
