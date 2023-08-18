@@ -37,8 +37,12 @@ int busca(int matricula, aluno alunos[], int n)
             n = p - 1;
         }
     }
-    while (alunos[p].matricula != matricula);
+    while (i < n);
 
+    if (i >= n)
+    {
+        return -1;
+    }
     return p;
 }
 
