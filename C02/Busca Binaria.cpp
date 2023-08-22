@@ -37,13 +37,16 @@ int busca(int matricula, aluno alunos[], int n)
             n = p - 1;
         }
     }
-    while (i < n);
+    while (i <= n);
 
-    if (i >= n)
+    if (i > n)
     {
         return -1;
     }
+    else
+    {
     return p;
+    }
 }
 
 int main()
