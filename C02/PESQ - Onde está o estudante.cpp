@@ -34,35 +34,31 @@ int busca(int vetor[], int x, int n)
 int main()
 {
     // Declarando as variaveis
-    int x[101];
-    int n = 0;
+    int x[10001];
+    int n;
     int aux;
 
     // Entrada
-    cin >> aux;
+    cin >> n;
 
-    // Adiciona elementos no vetor enquanto nao inserir um -1
-    while (aux != -1)
+    // Adiciona n elementos no vetor
+    for (int i = 0; i < n; i++)
     {
-        x[n] = aux;
-
-        n++;
-
-        cin >> aux;
+        cin >> x[i];
     }
 
-    // Entrada do numero a ser buscado, re-aproveitando a variavel aux
+    // Entrada do numero a ser buscado
     cin >> aux;
 
     // se a funcao retornar -1, o numero nao existe no vetor
     if (busca(x, aux, n) == -1)
     {
-        cout << "Nao possui acesso" << endl;
+        cout << "Nao localizado" << endl;
     }
     // Se nao, retorna a posicao do numero buscado
     else
     {
-        cout << "Possui acesso" << endl;
+        cout << "Corredor " << busca(x, aux, n) << endl;
     }
 
     return 0;
