@@ -58,13 +58,31 @@ void BubbleSort(int vetor[], int tamanho) // RAM = 4 + n + n*(6n + 4) + 17n^2 = 
     }
 }
 
+void InsertionSort(int Vetor[], int tamanho) // big O = N^2
+{
+    int i, j; // contadores
+    int chave;
+
+    for (j = 1; j < tamanho; j++)
+    {
+        chave = Vetor[j];
+        i = j - 1;
+        while ((i >= 0) && (Vetor[i] > chave))
+        {
+            Vetor[i + 1] = Vetor[i];
+            i--;
+        }
+        Vetor[i + 1] = chave;
+    }
+}
+
 int main() // Bubble sort tem a menor complexidade RAM do que o algoritmo feito em sala, porem ambos tem complexidade big O de n^2
 {
     int n = 10;
 
     int vetor[100] = {3, 2, 7, 6, 35, 61, 32, 34, 13, 10};
 
-    SelectionSort(vetor, n);
+    InsertionSort(vetor, n);
 
     for (int i = 0; i < n; i++)
     {
