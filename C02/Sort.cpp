@@ -58,21 +58,21 @@ void BubbleSort(int vetor[], int tamanho) // RAM = 4 + n + n*(6n + 4) + 17n^2 = 
     }
 }
 
-void InsertionSort(int Vetor[], int tamanho) // big O = N^2
+void InsertionSort(int Vetor[], int tamanho) // big O = N^2 / RAM = 7,5n^2 + 8,5n -12
 {
     int i, j; // contadores
     int chave;
 
-    for (j = 1; j < tamanho; j++)
+    for (j = 1; j < tamanho; j++) // 1 + 6(n-1)
     {
-        chave = Vetor[j];
-        i = j - 1;
-        while ((i >= 0) && (Vetor[i] > chave))
+        chave = Vetor[j]; // 3(n-1)
+        i = j - 1; // 3(n-1)
+        while ((i >= 0) && (Vetor[i] > chave)) // 7(n-1) * (n/2)[n/2 e a media aritmetica do numero de vezes que o vetor vai ser executado no pior caso]
         {
-            Vetor[i + 1] = Vetor[i];
-            i--;
+            Vetor[i + 1] = Vetor[i]; // 5(n-1)(n/2)
+            i--;// 3(n-1)(n/2)
         }
-        Vetor[i + 1] = chave;
+        Vetor[i + 1] = chave; //4(n-1)
     }
 }
 
