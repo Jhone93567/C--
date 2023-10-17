@@ -23,7 +23,7 @@ int particiona(int vetor[], int inicio, int fim)
         {
             j--;
         }
-        swap(vetor, i, j);
+        swap  (vetor, i, j);
     }
     if (vetor[i] > pivo)
     {
