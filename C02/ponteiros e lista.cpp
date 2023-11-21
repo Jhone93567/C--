@@ -51,5 +51,30 @@ int main()
 		it++;
 	}
 
+    //Algoritmo de fila
+
+    list<int> fila;
+
+    fila.push_back(0);  // nas filas inserimos dados no final e removemos com .pop o comeco, como uma fila do banco
+
+    while(!fila.empty()) //.empty retorna true caso a list esteja vazia
+    {
+        cout << fila.front() << endl;
+        fila.pop_front();
+    }
+
+    //Algoritmo de pilha
+
+    list<int> pilha;
+
+    pilha.push_front(0); // nas pilhas inserimos e removemos dados da sua frente, como se fizessemos uma pilha de pratos
+
+    while (!pilha.empty())
+    {
+        cout << pilha.front() << endl;
+        pilha.pop_front();
+    }
+    
+
     return 0;
 }
