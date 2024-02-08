@@ -37,8 +37,8 @@ int main()
     for (int i = 0; i < n; i++)
     {
         cin.ignore(); // ignore para ignorar o ENTER da entrada de n
-        getline(cin,alunos[i].nomes); // Usando getline para atribuir o nome e sobrenome do aluno a string
-        cin >> alunos[i].curso;
+        getline(cin, alunos[i].nomes); // Usando getline para atribuir o nome e sobrenome do aluno a string
+        getline(cin, alunos[i].curso);
         cin >> alunos[i].matricula;
     }
     
