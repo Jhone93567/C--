@@ -41,7 +41,7 @@ int busca(int matricula, aluno alunos[], int n)
 
     if (i > n)
     {
-        return -1;
+    return -1;
     }
     else
     {

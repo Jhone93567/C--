@@ -6,6 +6,7 @@ using namespace std;
 // Struct que armazena o nome e a quantidade de um produto
 struct produto
 {
+    int codigo;
     string nome;
     int quant;
 };
@@ -15,6 +16,8 @@ void cadastro (produto x[], int n)
 {
     for (int i = 0; i < n; i++)
     {
+        cout << "Qual o codigo do produto:" << endl;
+        cin >> x[i].codigo;
         cin.ignore();
         cout << "Qual o nome do produto:" << endl;
         getline(cin,x[i].nome);
@@ -24,18 +27,40 @@ void cadastro (produto x[], int n)
     return;
 }
 
-// Funcao que recebe o nome de um produto e retorna true caso ele exista no vetor estoque
-bool busca(string busca, produto x[], int n)
+// Funcao de busca binaria que retorna a posicao do produto buscado no vetor ou -1 caso ele nao exista
+int busca(int busca, produto estoque[], int n)
 {
-    for (int i = 0; i < n; i++)
+    int i = 0;
+    n -= 1;
+    int p;
+
+    do    
     {
-        if (x[i].nome == busca) // Se existir alguem no vetor com o nome buscado
+        p = (i + n) / 2;
+
+        if (estoque[p].codigo == busca)
         {
-            return true; // Retorna verdadeiro
+            return p;
+        }
+        else if (estoque[p].codigo < busca)
+        {
+            i = p + 1;
+        }
+        else if (estoque[p].codigo > busca)
+        {
+            n = p - 1;
         }
     }
+    while (i <= n);
 
-    return false; // Retorna falso
+    if (i > n)
+    {
+    return -1;
+    }
+    else
+    {
+    return p;
+    }
 }
 
 int main()
@@ -43,7 +68,7 @@ int main()
     // Declarando variaveis
     produto estoque[20];
     int total;
-    string buscando;
+    int buscando;
 
     // Entrada
     cout << "Quantos produtos serao registrados:" << endl;
@@ -53,18 +78,17 @@ int main()
     cadastro(estoque,total);
 
     // Perguntando o que o usuario deseja buscar
-    cin.ignore();
     cout << "O que deseja buscar?" << endl;
-    getline(cin,buscando);
+    cin >> buscando;
 
     // Chama a funcao de busca sequencial
-    if(busca(buscando,estoque,total))
+    if(busca(buscando,estoque,total) > 0)
     {
-        cout << buscando << " em estoque!" << endl;
+        cout << estoque[busca(buscando,estoque,total)].nome << " em estoque!" << endl;
     }
     else
     {
-        cout << "Nao existe " << buscando << " em estoque!" << endl;
+        cout << "Nao existem produtos com esse codigo em estoque!" << endl;
     }
 
     return 0;
