@@ -57,10 +57,6 @@ int busca(int busca, produto estoque[], int n)
     {
     return -1;
     }
-    else
-    {
-    return p;
-    }
 }
 
 int main()

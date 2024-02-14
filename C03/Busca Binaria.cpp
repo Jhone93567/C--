@@ -26,7 +26,7 @@ int busca(int matricula, aluno alunos[], int n)
 
         if (alunos[p].matricula == matricula)
         {
-            break;
+            return p;
         }
         else if (alunos[p].matricula < matricula)
         {
@@ -42,10 +42,6 @@ int busca(int matricula, aluno alunos[], int n)
     if (i > n)
     {
     return -1;
-    }
-    else
-    {
-    return p;
     }
 }
 
