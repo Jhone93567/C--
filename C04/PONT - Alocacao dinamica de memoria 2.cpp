@@ -1,30 +1,77 @@
+
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
-struct notas
+const int N_NOTAS = 4;
+
+struct dados
 {
-    float nota1, nota2, nota3, nota4;
+    int notas[N_NOTAS];
     float media;
 };
 
+void ler_notas(dados *aluno);
+void calcular_media(dados *aluno);
+
 int main()
 {
-    notas *p;
-    int nota,n;
+    int n_alunos;
+    cin >> n_alunos;
 
-    p = new notas;
+    // vetor de alunos
+    dados *alunos = new dados[n_alunos];
+    // inicializar medias
+    for (int i = 0; i < n_alunos; i++)
+    {
+        alunos[i].media = 0;
+    }
+    
+    // ler notas dos alunos
+    for (int i = 0; i < n_alunos; i++)
+    {
+        // ler notas de um aluno
+        ler_notas(&alunos[i]);
+    }    
+    
 
-    cin >> p->nota1;
-    cin >> p->nota2;
-    cin >> p->nota3;
-    cin >> p->nota4;
+    //  calcular medias dos alunos
+    for (int i = 0; i < n_alunos; i++)
+    {
+        // calcular media de um aluno
+        calcular_media(&alunos[i]);
+    }
 
-    p->media = (p->nota1 + p->nota2 + p->nota3 + p->nota4) / 4;
+    // calcular media das medias   
+    float media = 0;
+    for (int i = 0; i < n_alunos; i++)
+    {
+        media += alunos[i].media;
+    }
+    media /= n_alunos;
+    
+    // apresentar resultado
+    cout << fixed << setprecision(2);
+    cout << media << endl;
 
-    cout << p->media << endl;
-
-    delete p;
-
+    delete[] alunos;
     return 0;
+}
+
+void ler_notas(dados *aluno)
+{
+    for (int i = 0; i < N_NOTAS; i++)
+    {
+        cin >> aluno->notas[i];
+    }
+}
+
+void calcular_media(dados *aluno)
+{
+    for (int i = 0; i < N_NOTAS; i++)
+    {
+        aluno->media += aluno->notas[i];
+    }
+    aluno->media /= N_NOTAS;
 }
