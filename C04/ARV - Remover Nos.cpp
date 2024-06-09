@@ -31,107 +31,61 @@ void Inserir(arvore *&main, int x) // Funcao recursiva para inserir novos elemen
     }
 }
 
-arvore* ApontaMenor(arvore* &main, arvore* &aux1)
+arvore *ApontaMenor(arvore *&main) // Funcao recursiva que encontra o menor valor a direita de um no e retorna o endereco de memoroa desse no
 {
-    arvore* aux = main;
+    arvore *aux = main;
 
     if (main->esq == NULL)
     {
+        main = main->dir;
         return aux;
     }
     else
     {
-        if (aux1->dir == main)
-        {
-            aux1 = aux1->dir;
-        }
-        else
-        {
-            aux1 = aux1->esq;
-        }
-        
-        return ApontaMenor(main->esq, aux1);
+        return ApontaMenor(main->esq);
     }
-    
 }
 
-void Remover(arvore* &main, int X) // Funcao que busca X e remove ele da arvore
+bool Remover(arvore *&main, int X) // Funcao recursiva que busca X e remove ele da arvore
 {
-    arvore *aux1, *aux2;
+    arvore *aux1;
 
-    while (X != main->x && (main->dir != NULL || main->esq != NULL))
+    if (main == NULL) // Retorna falso caso a funcao seja chamada para um endereco nulo
     {
-        if (X > main->x)
+        return false;
+    }
+
+    if (X == main->x) // Caso o valor buscado seja o da main
+    {
+        aux1 = main; // Atribui a main para a funcao aux
+
+        if (main->esq == NULL) // Caso o No a esquerda esteja vazio
         {
-            aux1 = main;
-            main = main->dir;
+            main = main->dir; // Atribui o no da direita para a main
         }
-        else
+        else if (main->dir == NULL) // Faz o inverso caso o da direita esteja vazio
         {
-            aux1 = main;
             main = main->esq;
         }
-    }
+        else // Caso nenhum dos dois esteja vazio
+        {
+            aux1 = ApontaMenor(main->dir); // Encontra o menor valor a direita da main e salva seu endereco na aux
 
-    if (X == main->x)
+            main->x = aux1->x; // Atribui o menor valor para a main
+        }
+
+        delete aux1; // Remove a auxiliar da arvore e retorna true
+
+        return true;
+    }
+    else if (X > main->x)
     {
-        if (main->dir == NULL && main->esq == NULL)
-        {
-            if (aux1->dir == main)
-            {
-                aux1->dir = NULL;
-                delete main;
-            }
-            else
-            {
-                aux1->esq = NULL;
-                delete main;
-            }
-        }
-        else if ((main->dir != NULL && main->esq == NULL) || (main->dir == NULL && main->esq != NULL))
-        {
-            if(main->dir != NULL)
-            {
-                aux2 = main->dir;
-            }
-            else
-            {
-                aux2 = main->esq;
-            }
-
-            if (aux1->dir == main)
-            {
-                aux1->dir = aux2;
-                delete main;
-            }
-            else
-            {
-                aux1->esq = aux2;
-                delete main;
-            }
-        }
-        else
-        {
-            aux1 = main;
-
-            aux2 = ApontaMenor(main->dir, aux1);
-
-            if (aux1->dir == aux2)
-            {
-                aux1->dir = NULL;
-            }
-            else
-            {
-                aux1->esq = NULL;
-            }
-
-            main->x = aux2->x;
-
-            delete aux2;
-        }
-        
+        return Remover(main->dir, X);
     }
-    
+    else
+    {
+        return Remover(main->esq, X);
+    }
 }
 
 void Apagar(arvore *&main) // Funcao para apagar a arvore, pois ela usa memoria dinamica
@@ -147,32 +101,39 @@ void Apagar(arvore *&main) // Funcao para apagar a arvore, pois ela usa memoria 
     delete main;
 }
 
-void Varredura(arvore* main)
+void Varredura(arvore *main) // Funcao recursiva que imprime a arvore em ordem crescente
 {
-    if (main != NULL)
+    if (main->esq != NULL)
     {
-        Varredura(main ->esq);
-        cout << main->x << endl;
+        Varredura(main->esq);
+    }
+
+    cout << main->x << " ";
+
+    if (main->dir != NULL)
+    {
         Varredura(main->dir);
     }
-    
 }
 
 int main()
 {
-    int n, x;            // Armazena o numero de modulos e qual o valor inserido
+    int x;               // Armazena o valor inserido
     arvore *main = NULL; // Node inicial da arvore
 
-    while(cin >> x && x != -1) // Inserindo elementos na arvore
+    while (cin >> x && x != 0) // Inserindo elementos na arvore
     {
         Inserir(main, x);
     }
 
     cin >> x; // Entrada do numero a ser buscado
 
-    Remover(main, x);
+    while (Remover(main, x))
+        ; // Enquanto remover retornar true, chama a funcao
 
+    Varredura(main); // Funcao que imprime a arvore em ordem crescente
 
+    cout << endl; // Imprime uma quebra de linha
 
     Apagar(main); // Apaga a arvore para recuperar a memoria
 
