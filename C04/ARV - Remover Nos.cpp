@@ -121,7 +121,7 @@ int main()
     int x;               // Armazena o valor inserido
     arvore *main = NULL; // Node inicial da arvore
 
-    while (cin >> x && x != 0) // Inserindo elementos na arvore
+    while (cin >> x && x != 0) // Inserindo elementos na arvore ate receber 0
     {
         Inserir(main, x);
     }
